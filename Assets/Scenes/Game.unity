@@ -153,16 +153,38 @@ MonoBehaviour:
   - {fileID: 2956987590415187887, guid: bb10938c7572ea34d85129e5681fff5c, type: 3}
   - {fileID: 7882202818959500248, guid: 1b08301496acdfd4993ab0f6d873a85d, type: 3}
   - {fileID: 2076671297726434497, guid: d36358b01b936594c93763f2690d6f37, type: 3}
+  - {fileID: 3424303407122880120, guid: 55e3a7ceba9aa994197c534af7011b13, type: 3}
+  - {fileID: 3929641239309141800, guid: 17fea85ed0c48d5499fcd25766e6d7d4, type: 3}
+  - {fileID: 2207070191986953840, guid: 1ee683a2ee374824c94bbb4f27f622a5, type: 3}
+  - {fileID: 5574213445455537646, guid: 3c2d501fa82a41844b6e588e6ed16a5d, type: 3}
+  - {fileID: 8415140844516393120, guid: 53b1fafc0aa15ae4c91c9e937698c380, type: 3}
   topRooms:
   - {fileID: 3424303407122880120, guid: 55e3a7ceba9aa994197c534af7011b13, type: 3}
-  - {fileID: 2982980520834765497, guid: ced49995d4bde3449a603ef79b704533, type: 3}
   - {fileID: 2076671297726434497, guid: d36358b01b936594c93763f2690d6f37, type: 3}
+  - {fileID: 7664423876772643328, guid: fd1dbffc25b804a4a9425e3d840dca58, type: 3}
+  - {fileID: 440502963955222162, guid: a4d1672aaee44724b84f7b981ca64b2b, type: 3}
+  - {fileID: 5574213445455537646, guid: 3c2d501fa82a41844b6e588e6ed16a5d, type: 3}
+  - {fileID: 1651512084630694758, guid: 8ebe786aaaf088e4aa881bbc50ee1c6d, type: 3}
+  - {fileID: 7536975853712750428, guid: 59830a4a280c6a2479a36318f6306d29, type: 3}
+  - {fileID: 8415140844516393120, guid: 53b1fafc0aa15ae4c91c9e937698c380, type: 3}
   leftRooms:
   - {fileID: 3309703246969931488, guid: 69b16c7a06fa6814daab784102f8fa56, type: 3}
-  - {fileID: 2982980520834765497, guid: ced49995d4bde3449a603ef79b704533, type: 3}
+  - {fileID: 3424303407122880120, guid: 55e3a7ceba9aa994197c534af7011b13, type: 3}
+  - {fileID: 3929641239309141800, guid: 17fea85ed0c48d5499fcd25766e6d7d4, type: 3}
+  - {fileID: 2207070191986953840, guid: 1ee683a2ee374824c94bbb4f27f622a5, type: 3}
+  - {fileID: 1977360090677132880, guid: 7aa2a47dbfc5cc94b83f54efe764941d, type: 3}
+  - {fileID: 440502963955222162, guid: a4d1672aaee44724b84f7b981ca64b2b, type: 3}
+  - {fileID: 5574213445455537646, guid: 3c2d501fa82a41844b6e588e6ed16a5d, type: 3}
+  - {fileID: 1651512084630694758, guid: 8ebe786aaaf088e4aa881bbc50ee1c6d, type: 3}
   rightRooms:
   - {fileID: 7882202818959500248, guid: 1b08301496acdfd4993ab0f6d873a85d, type: 3}
-  - {fileID: 2982980520834765497, guid: ced49995d4bde3449a603ef79b704533, type: 3}
+  - {fileID: 3424303407122880120, guid: 55e3a7ceba9aa994197c534af7011b13, type: 3}
+  - {fileID: 2207070191986953840, guid: 1ee683a2ee374824c94bbb4f27f622a5, type: 3}
+  - {fileID: 1977360090677132880, guid: 7aa2a47dbfc5cc94b83f54efe764941d, type: 3}
+  - {fileID: 4225806507587661421, guid: 6957fe0a2de62a04c85de4a4ddd8ecb3, type: 3}
+  - {fileID: 1651512084630694758, guid: 8ebe786aaaf088e4aa881bbc50ee1c6d, type: 3}
+  - {fileID: 7536975853712750428, guid: 59830a4a280c6a2479a36318f6306d29, type: 3}
+  - {fileID: 8415140844516393120, guid: 53b1fafc0aa15ae4c91c9e937698c380, type: 3}
   closedRoom: {fileID: 4226323831583292864, guid: 2ca1de6d1ccbe2d4399fff1f76f8ea9a,
     type: 3}
   rooms: []
@@ -247,9 +269,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1da9021d50646cc438379e3686d7c27d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  openingDirection: 1
+  openingDirection: 0
   spawned: 0
-  waitTime: 4
+  waitTime: 2
 --- !u!1 &216748747 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1851219482837725516, guid: 55e3a7ceba9aa994197c534af7011b13,
@@ -363,6 +385,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Entry Room
       objectReference: {fileID: 0}
+    - target: {fileID: 1851219482837725516, guid: 55e3a7ceba9aa994197c534af7011b13,
+        type: 3}
+      propertyPath: m_Name
+      value: Destroyer
+      objectReference: {fileID: 0}
     - target: {fileID: 3424303407122880121, guid: 55e3a7ceba9aa994197c534af7011b13,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -417,11 +444,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1851219482837725516, guid: 55e3a7ceba9aa994197c534af7011b13,
-        type: 3}
-      propertyPath: m_Name
-      value: Destroyer
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6393025832511837205, guid: 55e3a7ceba9aa994197c534af7011b13, type: 3}
